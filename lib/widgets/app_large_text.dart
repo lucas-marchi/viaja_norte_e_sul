@@ -1,18 +1,23 @@
 import 'package:flutter/material.dart';
 
 class AppLargeText extends StatelessWidget {
-  int size;
+  double size;
   final String text;
   final Color color;
-  AppLargeText({super.key, 
-    
+    AppLargeText({super.key, 
+    this.size=30,
     required this.text, 
-    required this.color});
+    this.color=Colors.black});
 
   @override
   Widget build(BuildContext context) {
     return Text(
-      text
+      text,
+      style: TextStyle(
+        color: color,
+        fontSize: size,
+        fontWeight: FontWeight.bold
+      ),
     );
   }
 }
