@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:viaja_norte_e_sul/pages/navpages/main_page.dart';
 import 'package:viaja_norte_e_sul/pages/welcome_page.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.green,
       ),
-      home: WelcomePage()
+      home: MainPage()
     );
   }
 }
