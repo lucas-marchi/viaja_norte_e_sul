@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:viaja_norte_e_sul/pages/navpages/bar_item_page.dart';
-import 'package:viaja_norte_e_sul/pages/navpages/home_page.dart';
+import 'package:viaja_norte_e_sul/pages/home_page.dart';
 import 'package:viaja_norte_e_sul/pages/navpages/my_page.dart';
 import 'package:viaja_norte_e_sul/pages/navpages/search_page.dart';
 
