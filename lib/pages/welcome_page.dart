@@ -15,7 +15,7 @@ class WelcomePage extends StatefulWidget {
 
 class _WelcomePageState extends State<WelcomePage> {
   List images = [
-    "welcome-one.png",
+    "welcome-one.jpg",
     "welcome-two.png",
     "welcome-three.png",
   ];
@@ -54,7 +54,7 @@ class _WelcomePageState extends State<WelcomePage> {
                           width: 250,
                           child: AppText(
                             text:
-                                "O Rio de Janeiro está pronto para te mostrar o verdadeiro significado de cidade maravilhosa",
+                                "Estamos prontos para te mostrar sua beleza, seja no campo, na cidade, nas prais ou nas suas belíssimas cachoeiras.",
                             color: AppColors.textColor2,
                             size: 14,
                           ),
